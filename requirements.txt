@@ -1,0 +1,15 @@
+h5py
+imageai
+keras
+keras-resnet
+matplotlib
+mock
+numpy
+opencv-python
+pillow
+pytest
+scipy
+slack_bolt
+torch
+torchvision
+tqdm
