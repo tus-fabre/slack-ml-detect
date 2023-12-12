@@ -104,8 +104,8 @@ def file_shared(payload, client, ack, say):
     # 検出結果ファイルをアップロードする
     channel_id = payload.get('channel_id') 
     try:
-        client.files_upload(
-            channels=channel_id,
+        client.files_upload_v2(
+            channel=channel_id,
             title="Detected - " + file_name,
             file=annotated_image,
             initial_comment="検出結果ファイルを添付します",
